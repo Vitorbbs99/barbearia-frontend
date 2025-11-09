@@ -32,7 +32,7 @@ Antes de iniciar, certifique-se de ter instalado:
 
 ### 1️⃣ Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/Vitorbbs99/barbearia-frontend.git
 ```
 
 ### 2️⃣ Acesse a pasta do projeto
