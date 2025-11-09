@@ -1,0 +1,76 @@
+
+.planoscontainer {
+    display: grid;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 30px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* Estilo base para todos os cards */
+.planocard {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 1px 2px rgba(56, 65, 74, .15);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de hover para dar destaque */
+.planocard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Título do plano */
+.planocardtitulo {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Descrição curta */
+.planocarddescricao {
+    font-size: 15px;
+    color: #666;
+    font-weight: 400;
+    margin-bottom: 20px;
+    min-height: 40px; /* Ajuda a manter o card estável se a descrição for curta */
+}
+
+/* Valor do plano */
+.planocardvalor {
+    font-size: 2.5em;
+    color: #405189; /* Cor primária, pode ser a cor da sua marca */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.planocardvalor span {
+    font-size: 0.5em; /* Tamanho menor para o cifrão/moeda */
+    font-weight: normal;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+/* Estilo para o plano Premium para destacá-lo (opcional) */
+.planocardpremium {
+    background-color: #233264; /* Amarelo/Dourado para destaque Premium */
+    border-color: #233264;
+    box-shadow: 0 6px 12px #4051894b;
+}
+
+/* Garantindo que o texto Premium seja legível no fundo amarelo */
+.planocardpremium .planocardtitulo,
+.planocardpremium .planocardvalor, .planocardpremium .planocarddescricao {
+    color: #ddd; /* Cor escura para melhor contraste */
+}
+
+.btnFlexCard {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}

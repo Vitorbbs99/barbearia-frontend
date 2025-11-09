@@ -1,0 +1,16 @@
+.titlePainel {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.textPainel {
+  color: #878a99;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.flexTitlePainel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

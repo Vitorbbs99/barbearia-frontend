@@ -1,0 +1,115 @@
+.listaBlocos {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.cardDash{
+    width: 25%;
+    border-radius: 12px;
+    color: #495057;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(56, 65, 74, .15);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardDash.widthHalf {
+  width: 60%;
+}
+.cardDash.widthHalfRight {
+  width: 40%;
+  display: block;
+}
+.card-icon-div{
+    margin: auto;
+}
+.cardContent h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  color: #878a99;
+  margin-bottom: 0px;
+}
+.cardContent p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 7px;
+}
+.card_icon_div {
+    text-align: right;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.green {
+  background: #daf4f0;
+  color: #0ab39c;
+}
+
+.blue {
+  background: #dff0fa;
+  color: #299cdb;
+}
+
+.orange {
+  background: #fef4e4;
+  color: #f7b84b;
+}
+
+.grey {
+  background: #ff00000f;
+  color: #ff2323;
+}
+
+.listaDashs {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.lista_clientes {
+  list-style: none;
+  width: 100%;
+}
+
+.lista_clientes li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista_clientes li span {
+  background-color: #daf4f0;
+  color: #0ab39c;
+  padding: 0.35rem 0.65rem;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.lista_clientes li:last-child {
+  border-bottom: none;
+}
+
+.titleDash {
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.titleDash i {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #405189;
+}

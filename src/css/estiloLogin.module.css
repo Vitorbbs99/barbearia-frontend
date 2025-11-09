@@ -1,0 +1,44 @@
+.telaLogin {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f8fafc;
+}
+
+.formLogin {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;    
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+.formLogin button {
+    width: 100%;
+    padding: 1rem 1.5rem;
+}
+.logoForm {
+    max-width: 80px;
+}
+
+.fraseForm {
+    margin-bottom: 30px;
+    color: #111;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.telaLogin h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .telaLogin h2 {
+    font-size: 18px;
+}
+.fraseForm {
+    font-size: 14px;
+}
+}

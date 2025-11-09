@@ -1,0 +1,78 @@
+.clientes_container {
+}
+
+.tabela_clientes {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(56, 65, 74, .15);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tabela_clientes th,
+.tabela_clientes td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.tabela_clientes tr:nth-of-type(odd) {
+  background: #F8F8F8;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.status span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: block;
+}
+
+.ativo {
+  background: green;
+}
+.inativo {
+  background: red;
+}
+.tabela_clientes th {
+  background: #405189;
+  color: white;
+  font-weight: 600;
+}
+.tabela_clientes tr {
+  transition: .3s ease-out;
+}
+.tabela_clientes tr:hover {
+  background: #f1f1f1;
+}
+
+.tabela_edit {
+  display: flex;
+  gap: 20px;
+}
+
+.tabela_edit_link {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  transition: .3s ease-out;
+}
+
+.tabela_edit_link:hover {
+  color: #405189;
+}
+
+.tabela_edit_link_edit i{
+  color: #405189;
+}
+
+.tabela_edit_link_trash i{
+  color: red;
+}

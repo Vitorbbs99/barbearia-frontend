@@ -1,0 +1,48 @@
+.formulariocontainer {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.formulariotitulo {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.formulariomeusdados {
+    width: 40%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(56, 65, 74, .15);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulariolabel {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 15px;
+    float: left;
+    font-weight: 600;
+}
+
+.formularioinput:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+.formImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
