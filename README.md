@@ -1,4 +1,4 @@
-# 💈 Painel de Gestão - Barbearia
+# Painel de Gestão - Barbearia
 
 ![Painel da Barbearia](./src/img/capa.png)
 
@@ -7,7 +7,15 @@
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+# Dashboard
+
+![Dashboards da Barbearia](./src/img/menu.png)
+
+> Dashboards com diversas opções e funcionalidades. 
+
+---
+
+## Tecnologias Utilizadas
 
 - **React.js** — Biblioteca principal para criação da interface.
 - **React Router DOM** — Navegação entre as páginas.
@@ -19,7 +27,7 @@
 
 ---
 
-## 🧩 Pré-requisitos
+## Pré-requisitos
 
 Antes de iniciar, certifique-se de ter instalado:
 - **Node.js** (versão 18 ou superior)
@@ -28,36 +36,36 @@ Antes de iniciar, certifique-se de ter instalado:
 
 ---
 
-## 🛠️ Como Iniciar o Projeto
+## Como Iniciar o Projeto
 
-### 1️⃣ Clone o repositório
+### Clone o repositório
 ```bash
 git clone https://github.com/Vitorbbs99/barbearia-frontend.git
 ```
 
-### 2️⃣ Acesse a pasta do projeto
+### Acesse a pasta do projeto
 ```bash
 cd nome-do-repositorio
 ```
 
-### 3️⃣ Instale as dependências
+### Instale as dependências
 ```bash
 npm install
 ```
 
-### 4️⃣ Inicie o servidor de desenvolvimento
+### Inicie o servidor de desenvolvimento
 ```bash
 npm start
 ```
 
 O projeto será executado em:  
-👉 [http://localhost:3000](http://localhost:3000)
+[http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🚧 Status do Projeto
+## Status do Projeto
 
-🟡 **Em desenvolvimento ativo**
+**Em desenvolvimento ativo**
 
 Próximas etapas:
 - Integração completa dos gráficos do dashboard.
